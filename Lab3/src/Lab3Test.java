@@ -43,8 +43,15 @@ public class Lab3Test {
 	public void testEight() throws Exception{
 		assertEquals(list(2,2,2),PrimeFactors.generate(8));
 	}
+	
 	@Test
 	public void testNine() throws Exception{
 		assertEquals(list(3,3),PrimeFactors.generate(9));
 	}
+	
+	@Test
+	public void test325115() throws Exception{
+		assertEquals(list(5,7,7,1327),PrimeFactors.generate(325115));
+	}
+	
 }
