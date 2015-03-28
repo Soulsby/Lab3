@@ -5,12 +5,14 @@ import java.util.List;
 
 import org.junit.Test;
 
+import primeFactors.PrimeFactors;
+
 
 public class Lab3Test {
 
 	@Test
 	public void testOne() {
-		assertequals(list(),PrimeFactors.generate(1));
+		assertEquals(list(),PrimeFactors.generate(1));
 	}
 	
 	private List<Integer> list(){
